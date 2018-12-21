@@ -72,6 +72,12 @@
         margin-bottom: 20px;
       }
 
+      .form-border
+      {
+        padding:60px;
+        border: 10px #a81d32 solid;
+      }
+
       .padding {
         padding: 0 40px;
       }
@@ -84,6 +90,18 @@
         /* background-position: center; */
         background-size: cover;
         background-repeat: no-repeat;
+        width:100%;
+        
+      }
+
+      
+
+      .form-b {
+        background: url("form-b.jpg");
+        /* background-position: center; */
+        background-size: contain;
+        background-repeat: repeat;
+     
       }
 
       .video {
@@ -151,6 +169,32 @@
       {
         text-align: center;
       }
+    
+      .form-row
+      {
+        flex-direction:column;
+      }
+
+      .input{
+        margin:10px auto;
+        padding: 15px 12px;
+         border: 2px #a81d32 solid;
+         width:55%;
+      }
+
+      ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: #a81d32;
+        font-weight: bold;
+        opacity: 1; /* Firefox */
+      }
+
+      .s-b
+      {
+        background: white;
+        color: #a81d32;
+        font-weight:bold;
+      }
+
       @media only screen and (max-width: 767px) {
         .font-small {
           font-size: 10px;
@@ -176,6 +220,16 @@
         {
           margin-top:20px;
         }
+
+        .input{
+          width:100%
+        }
+
+        .form-border
+        {
+          padding:20px;
+        }
+        
       }
       @media only screen and (min-width: 768px) {
         .text-area
@@ -188,10 +242,8 @@
 
   <body>
     <div class="wrapper">
-      <img src="Header/Header-01.jpg" alt="shocking-sales" class="img" />
-
       <div class="margin-t-10 margin-b-20 ">
-        <img src="banner/1.jpg" alt="shocking-sales" class="img" />
+        <img src="1-01.jpg" alt="shocking-sales" class="img" />
       </div>
 
       <img src="banner/2.jpg" alt="shocking-sales" class="img margin-b-20 " />
@@ -202,8 +254,9 @@
         <iframe
           width="80%"
           height="400px"
-          src="https://www.youtube.com/embed/tgbNymZ7vqY"
+          src="https://www.youtube.com/embed/Z2jgI7fMfZw"
           class="video"
+          allowfullscreen
         >
         </iframe>
       </div>
@@ -294,6 +347,20 @@
           <br />
           <button class="btn item-btn">Add to Cart</button>
         </div>
+      </div>
+      <img src="form-h.jpg" alt="shocking-sales" class="img  margin-t-20" />
+      <div class="form-b  margin-b-20 ">
+        <form class=" form-border">
+          <div class="form-row">
+          <input type="text" name="name" placeholder="Name:" class="input"/>
+         
+          <input type="text" name="phone" placeholder="Phone Number:" class="input"/>
+        
+          <input type="email" name="email" placeholder="Email Address:" class="input"/>
+          
+          <input type="submit" value="Submit Your Interest " class="input s-b" />
+          </div>
+        </form>
       </div>
     </div>
   </body>
