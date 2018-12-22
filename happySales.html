@@ -16,16 +16,14 @@
     />
 
     <style>
-      
       h2,
       h3,
       h5 {
         color: white;
       }
 
-      h4
-      {
-        font-size:20px;  
+      h4 {
+        font-size: 20px;
       }
 
       .info-box {
@@ -71,10 +69,12 @@
       .margin-b-20 {
         margin-bottom: 20px;
       }
+      .margin-b-40 {
+        margin-bottom: 40px;
+      }
 
-      .form-border
-      {
-        padding:60px;
+      .form-border {
+        padding: 60px;
         border: 10px #a81d32 solid;
       }
 
@@ -90,18 +90,14 @@
         /* background-position: center; */
         background-size: cover;
         background-repeat: no-repeat;
-        width:100%;
-        
+        width: 100%;
       }
-
-      
 
       .form-b {
         background: url("form-b.jpg");
         /* background-position: center; */
         background-size: contain;
         background-repeat: repeat;
-     
       }
 
       .video {
@@ -116,6 +112,13 @@
         justify-content: center;
       }
 
+      .flex1 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
       .red-back {
         background: #a81d32;
       }
@@ -125,7 +128,7 @@
       }
       .box {
         width: 100%;
-        height: 300px;
+        height: auto;
       }
 
       .box1 {
@@ -136,6 +139,14 @@
         z-index: 2;
       }
 
+      .box2 {
+        width: 200px;
+        height: 175px;
+        margin-left: -16%;
+        margin-top: 38%;
+        z-index: 2;
+      }
+
       .btn {
         background: white;
         color: black;
@@ -143,9 +154,8 @@
         font-weight: bold;
       }
 
-      .item-btn
-      {
-        width:100%;
+      .item-btn {
+        width: 100%;
         background: #a81d32;
         color: white;
         padding: 8px 12px;
@@ -160,39 +170,43 @@
         border: #3b2313 10px solid;
       }
 
-      .red
-      {
-        color:#a81d32;
+      .red {
+        color: #a81d32;
       }
 
-      .center
-      {
+      .center {
         text-align: center;
       }
-    
-      .form-row
-      {
-        flex-direction:column;
+
+      .form-row {
+        flex-direction: column;
       }
 
-      .input{
-        margin:10px auto;
+      .input {
+        margin: 10px auto;
         padding: 15px 12px;
-         border: 2px #a81d32 solid;
-         width:55%;
+        border: 2px #a81d32 solid;
+        width: 55%;
       }
 
-      ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+      ::placeholder {
+        /* Chrome, Firefox, Opera, Safari 10.1+ */
         color: #a81d32;
         font-weight: bold;
         opacity: 1; /* Firefox */
       }
 
-      .s-b
-      {
+      .s-b {
         background: white;
         color: #a81d32;
-        font-weight:bold;
+        font-weight: bold;
+      }
+
+      .f-item {
+        margin: 10px 20px;
+      }
+      .col-3 {
+        padding: 0;
       }
 
       @media only screen and (max-width: 767px) {
@@ -212,29 +226,24 @@
         .center-t {
           text-align: center;
         }
-       
+
         .box1 {
           margin: 0;
         }
-        .text-area
-        {
-          margin-top:20px;
+
+        .box2 {
+          margin: 0;
+        }
+        .text-area {
+          margin-top: 20px;
         }
 
-        .input{
-          width:100%
+        .input {
+          width: 100%;
         }
 
-        .form-border
-        {
-          padding:20px;
-        }
-        
-      }
-      @media only screen and (min-width: 768px) {
-        .text-area
-        {
-          margin-top:90px;
+        .form-border {
+          padding: 20px;
         }
       }
     </style>
@@ -267,98 +276,125 @@
         class="img"
       />
 
-      <img
-        src="banner/6.jpg"
-        alt="shocking-sales"
-        class="img margin-b-20 margin-t-20"
-      />
+      <img src="Best Seller/header.jpg" alt="shocking-sales" class="img  " />
 
-      <div class="row red-back padding-10p margin-t-10 flex">
-        <div class="  col-lg-5 margin-lr">
-          <div class="white-back box"></div>
-        </div>
-        <div class="white-back grey-b box1"></div>
-        <div class=" col-lg-5 margin-lr padding text-area">
-          <h5 class="center-t">Panama Bootie Heels</h5>
-          <br />
-          <h2 class="center-t">RM 48.00</h2>
-          <br />
-          <div class="col-lg-12" style="align-items: center">
-            <button class="btn">Add to Cart</button>
-          </div>
-        </div>
+      <div>
+        <a href="https://happy2u.my/category.php?search=S937"
+          ><img src="Best Seller/1.jpg" alt="shocking-sales" class="img  "
+        /></a>
       </div>
-      <img
-        src="banner/3.jpg"
-        alt="shocking-sales"
-        class="img margin-b-20 margin-t-20"
-      />
+      <a href="https://happy2u.my/category.php?search=S813"
+        ><img src="Best Seller/2.jpg" alt="shocking-sales" class="img  "
+      /></a>
+      <a href="https://happy2u.my/category.php?search=S956"
+        ><img src="Best Seller/3.jpg" alt="shocking-sales" class="img  "
+      /></a>
+      <a href="https://happy2u.my/category.php?search=S1005"
+        ><img src="Best Seller/4.jpg" alt="shocking-sales" class="img  "
+      /></a>
+      <a href="https://happy2u.my/category.php?search=S1019"
+        ><img src="Best Seller/5.jpg" alt="shocking-sales" class="img  "
+      /></a>
+      <a href="https://happy2u.my/category.php?search=best+seller"
+        ><img src="Best Seller/shop-all.jpg" alt="shocking-sales" class="img  "
+      /></a>
+      <img src="ss/header.jpg" alt="shocking-sales" class="img " />
 
       <div class="row">
-        <div class="col-lg-3 col-ms-6 col-xs-12">
-          <img
-            src="shoes/3.png"
-            alt="shocking-sales"
-            class="img margin-b-20 margin-t-20"
-          />
-
-          <h4>Panama Bootie Heels</h4>
-          <br />
-          <h4 class="red center"> RM30.00</h3>
-          <br />
-          <button class="btn item-btn">Add to Cart</button>
+        <div class="col-3">
+          <a href="https://happy2u.my/category.php?search=S395">
+          <img src="ss/1.jpg" alt="shocking-sales" class="img" />
+          </a>
         </div>
-        <div class="col-lg-3 col-ms-6 col-xs-12">
-          <img
-            src="shoes/4.png"
-            alt="shocking-sales"
-            class="img margin-b-20 margin-t-20"
-          />
-
-          <h4>Panama Bootie Heels</h4>
-          <br />
-          <h4 class="red center">RM30.00</h3>
-          <br />
-          <button class="btn item-btn">Add to Cart</button>
+        <div class="col-3">
+          <a href="https://happy2u.my/category.php?search=S552">
+          <img src="ss/2.jpg" alt="shocking-sales" class="img" />
+          </a>
         </div>
-        <div class="col-lg-3 col-ms-6 col-xs-12 ">
-          <img
-            src="shoes/6.png"
-            alt="shocking-sales"
-            class="img margin-b-20 margin-t-20"
-          />
-
-          <h4>Panama Bootie Heels</h4>
-          <br />
-          <h4 class="red center" >RM30.00</h3>
-          <br />
-          <button class="btn item-btn">Add to Cart</button>
+        <div class="col-3">
+          <a href="https://happy2u.my/category.php?search=S907">
+          <img src="ss/3.jpg" alt="shocking-sales" class="img" />
+          </a>
         </div>
-        <div class="col-lg-3 col-ms-6 col-xs-12">
-          <img
-            src="shoes/9.png"
-            alt="shocking-sales"
-            class="img margin-b-20 margin-t-20"
-          />
-
-          <h4>Panama Bootie Heels</h4>
-          <br />
-          <h4 class="red center">RM30.00</h3>
-          <br />
-          <button class="btn item-btn">Add to Cart</button>
+        <div class="col-3">
+          <a href="https://happy2u.my/category.php?search=glitter+love">
+          <img src="ss/4.jpg" alt="shocking-sales" class="img" />
+          </a>
         </div>
       </div>
-      <img src="form-h.jpg" alt="shocking-sales" class="img  margin-t-20" />
-      <div class="form-b  margin-b-20 ">
+      <div class="row">
+        <div class="col-3">
+          <a href="https://happy2u.my/category.php?search=ol+suede">
+          <img src="ss/5.jpg" alt="shocking-sales" class="img" />
+          </a>
+        </div>
+        <div class="col-3">
+          <a href="https://happy2u.my/category.php?search=S1144">
+          <img src="ss/6.jpg" alt="shocking-sales" class="img" />
+          </a>
+        </div>
+        <div class="col-3">
+          <a href="https://happy2u.my/category.php?search=S1062">
+          <img src="ss/7.jpg" alt="shocking-sales" class="img" />
+          </a>
+        </div>
+        <div class="col-3">
+          <a href="https://happy2u.my/category.php?search=S1108">
+          <img src="ss/8.jpg" alt="shocking-sales" class="img" />
+          </a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-3">
+          <a href="https://happy2u.my/category.php?search=S1110">
+          <img src="ss/9.jpg" alt="shocking-sales" class="img" />
+          </a>
+        </div>
+        <div class="col-3">
+          <a href="https://happy2u.my/category.php?search=S1132">
+          <img src="ss/10.jpg" alt="shocking-sales" class="img" />
+          </a>
+        </div>
+        <div class="col-3">
+          <a href="https://happy2u.my/category.php?search=S1139">
+          <img src="ss/11.jpg" alt="shocking-sales" class="img" />
+          </a>
+        </div>
+        <div class="col-3">
+          <a href="https://happy2u.my/category.php?search=S1164">
+          <img src="ss/12.jpg" alt="shocking-sales" class="img" />
+          </a>
+        </div>
+      </div>
+      <img src="form-h.jpg" alt="shocking-sales" class="img  margin-t-20 " />
+      <div class="form-b  margin-b-40 ">
         <form class=" form-border">
           <div class="form-row">
-          <input type="text" name="name" placeholder="Name:" class="input"/>
-         
-          <input type="text" name="phone" placeholder="Phone Number:" class="input"/>
-        
-          <input type="email" name="email" placeholder="Email Address:" class="input"/>
-          
-          <input type="submit" value="Submit Your Interest " class="input s-b" />
+            <input type="text" name="name" placeholder="Name:" class="input" />
+
+            <input
+              type="text"
+              name="phone"
+              placeholder="Phone Number:"
+              class="input"
+            />
+
+            <input
+              type="email"
+              name="email"
+              placeholder="Email Address:"
+              class="input"
+            />
+
+            <input
+              type="submit"
+              value="Submit Your Interest "
+              class="input s-b"
+            />
+
+            <p style="margin:auto; color:#a81d32; font-weight: bold;">
+              * Our team will reach you on Whatsapp
+            </p>
           </div>
         </form>
       </div>
